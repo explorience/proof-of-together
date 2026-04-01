@@ -1,4 +1,5 @@
-# Proof of Together — Protocol PRD
+# PRUEBA — Proof of Recognized Use, Evidence-Based Attestation
+## Protocol PRD
 
 **Status:** Draft v0.1 — for review  
 **Date:** 2026-04-01  
@@ -29,7 +30,7 @@ The data exists — it's just trapped in WhatsApp groups and someone's memory.
 
 ## Solution
 
-**Proof of Together** is a protocol built on EAS (Ethereum Attestation Service) that lets communities attest two things:
+**PRUEBA** is a protocol built on EAS (Ethereum Attestation Service) that lets communities attest two things:
 
 1. **We gathered** — a community session happened (activity attestation)
 2. **We decided** — a governance decision was made (governance attestation)
@@ -56,7 +57,7 @@ A WhatsApp (or Telegram) bot is the primary interface. Community organisers desc
 ## Protocol Stack
 
 ```
-Proof of Together (application protocol)
+PRUEBA (application protocol)
 ├── Schema A: Community Activity
 ├── Schema B: Governance Decision
 ├── Metadata Standard (JSON, off-chain)
@@ -96,7 +97,7 @@ address attestedBy    // Bot or trusted community member address
 **Activity metadata (v1):**
 ```json
 {
-  "schema": "pot-activity-v1",
+  "schema": "prueba-activity-v1",
   "facilityName": "string",
   "facilityLocation": "string (optional)",
   "activityType": "string (football | basketball | repair | meeting | other)",
@@ -111,7 +112,7 @@ address attestedBy    // Bot or trusted community member address
 **Governance metadata (v1):**
 ```json
 {
-  "schema": "pot-governance-v1",
+  "schema": "prueba-governance-v1",
   "proposalText": "string",
   "outcome": "approved | rejected | deferred",
   "votesFor": "number",
@@ -236,7 +237,7 @@ Bot responds with summary from indexer.
 
 ## Open Questions
 
-1. **Name** — "Proof of Together" or something else? (POT is also awkward as acronym)
+1. **Name** — "PRUEBA" or something else? (POT is also awkward as acronym)
 2. **Chain** — Base is default. Should we support multiple chains?
 3. **Bot identity** — Does the bot have its own ENS / on-chain identity?
 4. **Privacy** — Should participant counts be on-chain or metadata-only?
