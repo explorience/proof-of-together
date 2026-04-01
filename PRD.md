@@ -41,7 +41,7 @@ A WhatsApp (or Telegram) bot is the primary interface. Community organisers desc
 ## Use Cases
 
 ### Primary (Year 1)
-- **Saraia Sport** (Mogadishu, Somalia) — women's football club, session tracking + governance
+- **Sarreya Sport** (Hargeisa, Somaliland) — women's football club, session tracking + governance
 - **Hoops Sagrado** (Guatemala) — basketball court usage data to unlock second court funding
 - **Repair Cafe London** — session tracking for grant reporting
 
@@ -211,7 +211,7 @@ Bot responds with summary from indexer.
 ### Phase 2: Indexer + API (May 2026)
 - Basic indexer watching for protocol attestations
 - Simple API
-- Community stats page for Saraia Sport
+- Community stats page for Sarreya Sport
 
 ### Phase 3: Hoops Sagrado (June 2026)
 - Onboard Hoops Sagrado Guatemala
@@ -227,7 +227,7 @@ Bot responds with summary from indexer.
 
 ## Success Metrics
 
-- Saraia Sport: 10+ attested sessions by end of April
+- Sarreya Sport: 10+ attested sessions by end of April
 - Hoops Sagrado: court usage data used in funding application
 - Protocol: 3+ communities attesting by Q3 2026
 - Stretch: attestation data used in a Gitcoin round or retroPGF application
