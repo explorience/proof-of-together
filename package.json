@@ -1,0 +1,19 @@
+{
+  "name": "prueba-protocol",
+  "version": "0.1.0",
+  "description": "PRUEBA – Proof of Recognized Use, Evidence-Based Attestation",
+  "type": "module",
+  "scripts": {
+    "register-schemas": "tsx scripts/register-schemas.ts",
+    "test-pipeline": "tsx scripts/test-pipeline.ts"
+  },
+  "dependencies": {
+    "@ethereum-attestation-service/eas-sdk": "^2.7.0",
+    "ethers": "^6.13.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
